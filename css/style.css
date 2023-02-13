@@ -1,0 +1,147 @@
+/*Global*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 50 230;
+}
+
+/*
+.card img{ 
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.card-body {
+    position: absolute;
+    right: auto;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    text-align: center
+  } */
+.container-fluid a {
+  color: rgb(254, 200, 54);
+  font-style: italic;
+}
+
+.btn {
+  background-color: rgb(254, 200, 54);
+}
+
+.splash {
+  background-image: url("https://i.postimg.cc/KvYDsJt2/Container.png");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  color: white;
+}
+
+.navbar-dark .navbar-brand {
+  color: rgb(254, 200, 54);
+}
+
+section .portoflio {
+  background-color: rgb(247, 247, 247);
+}
+
+.card {
+  border: none;
+}
+
+.card img {
+  max-height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.splash i {
+  font-size: 30px;
+  background: inherit;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: rgb(254, 200, 54);
+  border-radius: 50%;
+  border: solid 3px;
+  color: rgb(254, 200, 54);
+}
+
+.splash-inner {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.services h1 {
+  text-align: center;
+}
+
+.box {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+.box i {
+  font-size: 30px;
+  color: rgb(254, 200, 54);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.box div {
+  font-size: 0px;
+  margin: 0 5px;
+  border: solid rgb(254, 200, 54) 3px;
+  background: inherit;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  line-height: 60px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(254, 200, 54);
+  position: relative;
+}
+
+footer li {
+  font-size: 0px;
+  margin: 0 5px;
+  border: solid black 2px;
+  background: black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  line-height: 40px;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  position: relative;
+}
+
+footer i {
+  font-size: 20px;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.copy {
+  justify-content: center;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQSxTQUFBO0FBRUE7RUFDQyxzQkFBQTtBQ0REOztBRElBO0VBQ0ksZUFBQTtBQ0RKOztBREdBOzs7Ozs7Ozs7Ozs7OztLQUFBO0FBZ0JBO0VBQ0ksd0JBekJRO0VBMEJSLGtCQUFBO0FDREo7O0FER0E7RUFDSSxtQ0E3QlE7QUM2Qlo7O0FER0E7RUFDSSxvRUFBQTtFQUNBLHNCQUFBO0VBQ0EsMkJBQUE7RUFDQSxhQUFBO0VBQ0Esa0JBQUE7RUFDQSxZQUFBO0FDQUo7O0FESUE7RUFDSSx3QkEzQ1E7QUMwQ1o7O0FESUE7RUFDSSxvQ0FBQTtBQ0RKOztBRElBO0VBQ0ksWUFBQTtBQ0RKOztBREdBO0VBQ0EsaUJBQUE7RUFDQSxvQkFBQTtLQUFBLGlCQUFBO0FDQUE7O0FESUE7RUFDSSxlQUFBO0VBQ0EsbUJBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGlCQUFBO0VBQ0Esd0JBakVRO0VBa0VSLGtCQUFBO0VBQ0EsaUJBQUE7RUFDQSx3QkFwRVE7QUNtRVo7O0FESUE7RUFDSSxrQkFBQTtFQUNBLGtCQUFBO0VBQ0EsUUFBQTtFQUNBLFNBQUE7RUFDQSxnQ0FBQTtBQ0RKOztBREdBO0VBQ0ksa0JBQUE7QUNBSjs7QURFQTtFQUNJLGtCQUFBO0VBQ0EsbUJBQUE7RUFDQSxhQUFBO0VBQ0Esc0JBQUE7RUFDQSxlQUFBO0FDQ0o7O0FERUE7RUFDSSxlQUFBO0VBQ0Esd0JBM0ZRO0VBNEZSLFFBQUE7RUFDQSxTQUFBO0VBQ0EsZ0NBQUE7RUFDQSxrQkFBQTtBQ0NKOztBRElBO0VBQ0ksY0FBQTtFQUNBLGFBQUE7RUFDQSxtQ0FBQTtFQUNBLG1CQUFBO0VBQ0Esa0JBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7RUFDQSxpQkFBQTtFQUNBLHVCQUFBO0VBQ0EsbUJBQUE7RUFDQSx3QkFoSFE7RUFpSFIsa0JBQUE7QUNESjs7QURJQTtFQUNJLGNBQUE7RUFDQSxhQUFBO0VBQ0EsdUJBQUE7RUFDQSxpQkFBQTtFQUNBLGtCQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7RUFDQSxhQUFBO0VBQ0EsaUJBQUE7RUFDQSx1QkFBQTtFQUNBLG1CQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0FDREo7O0FESUE7RUFDSSxlQUFBO0VBQ0EsWUFBQTtFQUNBLFFBQUE7RUFDQSxTQUFBO0VBQ0EsZ0NBQUE7RUFDQSxrQkFBQTtBQ0RKOztBREdBO0VBQ0ksdUJBQUE7QUNBSiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

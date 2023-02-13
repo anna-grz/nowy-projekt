@@ -1,0 +1,149 @@
+
+/*Global*/
+$color-one: rgb(254, 200, 54);
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+.container {
+    padding: 50 230;
+}
+/*
+.card img{ 
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.card-body {
+    position: absolute;
+    right: auto;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    text-align: center
+  } */
+
+.container-fluid a {
+    color: $color-one;
+    font-style: italic;
+  }
+.btn {
+    background-color: $color-one;
+}
+
+.splash {
+    background-image: url('https://i.postimg.cc/KvYDsJt2/Container.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    color: white;
+  }
+
+
+.navbar-dark .navbar-brand {
+    color: $color-one;
+}
+
+section .portoflio {
+    background-color: rgb(247, 247, 247)
+}
+
+.card {
+    border:none;
+}
+.card img {
+max-height: 300px;
+object-fit: cover;
+}
+
+
+.splash i {
+    font-size: 30px;
+    background: inherit;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: $color-one;
+    border-radius: 50%;
+    border: solid 3px;
+    color: $color-one;
+}
+
+.splash-inner {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.services h1 {
+    text-align: center;
+}
+.box {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.box i {
+    font-size: 30px;
+    color: $color-one;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+
+}
+
+.box div {
+    font-size: 0px;
+    margin: 0 5px;
+    border: solid $color-one 3px;
+    background: inherit;
+    border-radius: 50%; 
+    width: 60px; 
+    height: 60px; 
+    display: flex;
+    line-height: 60px;
+    justify-content: center;
+    align-items: center;
+    color: $color-one;
+    position: relative;
+    
+}
+footer li {
+    font-size: 0px;
+    margin: 0 5px;
+    border: solid black 2px;
+    background: black;
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px; 
+    display: flex;
+    line-height: 40px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    position: relative;
+}
+
+footer i {
+    font-size: 20px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+} 
+.copy {
+    justify-content: center;
+}
+
+
+
+
