@@ -50,8 +50,14 @@ section .portoflio {
     background-color: rgb(247, 247, 247)
 }
 
+.portfolio {
+    position: relative;
+}
 .card {
     border:none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
 }
 .card img {
 max-height: 300px;
@@ -143,7 +149,5 @@ footer i {
 .copy {
     justify-content: center;
 }
-
-
 
 
