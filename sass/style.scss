@@ -46,8 +46,8 @@ $color-one: rgb(254, 200, 54);
     color: $color-one;
 }
 
-section .portoflio {
-    background-color: rgb(247, 247, 247)
+section.portfolio {
+    background-color: rgb(196, 196, 196)
 }
 
 
@@ -55,7 +55,7 @@ section .portoflio {
     border:none;
     align-items: center;
     justify-content: center;
-    width: 18rem;
+    
 }
 .card img {
 max-height: 300px;
@@ -120,6 +120,11 @@ object-fit: cover;
     position: relative;
     
 }
+
+footer {
+    position: relative;
+    margin: 5px;
+}
 footer li {
     font-size: 0px;
     margin: 0 5px;
@@ -145,7 +150,10 @@ footer i {
     position: absolute;
 } 
 .copy {
-    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
 }
 
 
