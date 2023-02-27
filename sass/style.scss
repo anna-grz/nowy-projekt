@@ -55,7 +55,9 @@ section.portfolio {
     border:none;
     align-items: center;
     justify-content: center;
-    
+ 
+    padding: 5px;
+    background: inherit;
 }
 .card img {
 max-height: 300px;
